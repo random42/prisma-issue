@@ -3,6 +3,8 @@ node_modules/
 
 dist/
 
+var/
+
 # dotenv environment variable files
 .env
 
