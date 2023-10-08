@@ -1,0 +1,22 @@
+{
+  "name": "prisma-issue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prestart": "prisma db push --force-reset --accept-data-loss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.4.1",
+    "cache-manager": "^5.2.4",
+    "prisma-extension-cache-manager": "^0.3.0",
+    "prisma-extension-log": "^0.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
